@@ -1,0 +1,72 @@
+{
+	"name": "RadiusAMO",
+	"version": "1.0",
+	"author": "Timothy Lutt",
+	"url": "",
+	"descriptionmsg": "",
+	"namemsg": "skinname-radius-amo",
+	"license-name": "CC0-1.0",
+	"type": "skin",
+	"ValidSkinNames": {
+		"radiusamo": "RadiusAMO"
+	},
+	"MessagesDirs": {
+		"RadiusAMO": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.radiusamo": {
+			"class": "ResourceLoaderSkinModule",
+			"position": "top",
+			"styles": {
+				"resources/libraries/normalise.css": {
+					"media": "screen"
+				},
+				"resources/screen-common.less": {
+					"media": "screen"
+				},
+                "resources/bootstrap.min.css": {
+                  "media": "screen"
+                },
+				"resources/app.css": {
+					"media": "screen"
+				},
+				"resources/content.css": {
+					"media": "screen"
+				},
+                "resources/font-awesome.css": {
+                  "media": "screen"
+                },
+				"resources/screen-desktop.less": {
+					"media": "screen and (min-width: 751px)"
+				},
+				"resources/screen-mobile.less": {
+					"media": "screen and (max-width: 750px)"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.radiusamo.js": {
+			"position": "bottom",
+			"scripts": [
+              "resources/font-awesome.js",
+              "resources/main.js",
+              "resources/jquery-3.2.1.slim.min.js",
+              "resources/popper.min.js",
+              "resources/bootstrap.min.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "RadiusAMO"
+	},
+	"AutoloadClasses": {
+		"SkinRadiusAMO": "RadiusAMO.skin.php",
+		"RadiusAMOTemplate": "RadiusAMOTemplate.php"
+	},
+	"manifest_version": 1
+}

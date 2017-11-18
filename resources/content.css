@@ -1,0 +1,59 @@
+.horizontal-line{
+    border-bottom: 1px solid #303030;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.content-lesson{
+
+}
+
+.content-lesson-details{
+    background: #F0F0F0;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-lesson-details div span{
+    font-weight: bold;
+}
+
+.lesson-explain{
+    background: #79B8E5;
+    padding: 15px;
+    margin-bottom:15px;
+}
+
+.competences{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.competences tr.header-row{
+    background: #A4C497;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.competences td, .competences th{
+    padding: 10px;
+}
+
+.competences td p, .competences th p{
+    margin: 0;
+}
+
+.subjects{
+    text-align: center;
+    margin: 5px;
+}
+
+.subject{
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid #F0F0F0;
+    max-width: 25em;
+}
