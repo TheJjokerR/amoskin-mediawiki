@@ -26,7 +26,7 @@
 }
 
 .lesson-info .explained{
-    background: #79B8E5;
+    background: #C5DBEA;
     padding: 15px;
     margin-bottom:10px;
 }
@@ -48,6 +48,16 @@
 
 .competences td p, .competences th p{
     margin: 0;
+}
+
+.lessons{
+    background: #C5DBEA;
+    padding: 1em;
+}
+.lessons h2{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .subjects{
