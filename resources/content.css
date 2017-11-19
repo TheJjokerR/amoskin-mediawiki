@@ -68,10 +68,15 @@
 
 .subject p{
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .subject a {
     display: block;
+    text-align: center;
 }
 
 .subject a:last-of-type {
