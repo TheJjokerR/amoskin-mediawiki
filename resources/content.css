@@ -1,6 +1,7 @@
 #toc{
     float: right;
     margin-left: 1em;
+    border-radius: 5px;
 }
 
 .horizontal-line{
@@ -9,6 +10,13 @@
 
 .center-text{
     text-align: center;
+}
+
+.teachers-note{
+    border: 1px solid #303030;
+    display: block;
+    padding: 1em;
+    border-radius: 5px;
 }
 
 .lesson-info{
