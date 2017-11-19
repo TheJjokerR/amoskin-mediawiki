@@ -51,8 +51,10 @@
 }
 
 .subjects{
-    flex-flow:column wrap;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 5px;
 }
 
@@ -61,6 +63,7 @@
     padding: 1em;
     border: 1px solid #F0F0F0;
     max-width: 25em;
+    margin:5px;
 }
 
 .subject p{
