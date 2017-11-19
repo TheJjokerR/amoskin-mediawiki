@@ -1,3 +1,8 @@
+#toc{
+    float: right;
+    margin-left: 1em;
+}
+
 .horizontal-line{
     border-bottom: 1px solid #303030;
 }
