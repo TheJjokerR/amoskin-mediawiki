@@ -6,25 +6,29 @@
     text-align: center;
 }
 
-.content-lesson{
-
+.lesson-info{
+    padding: 15px;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-.content-lesson-details{
+.lesson-info .details{
     background: #F0F0F0;
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
 }
 
-.content-lesson-details div span{
+.lesson-info .details div span{
     font-weight: bold;
 }
 
-.lesson-explain{
+.lesson-info .explained{
     background: #79B8E5;
     padding: 15px;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
 .competences{
@@ -47,6 +51,7 @@
 }
 
 .subjects{
+    flex-flow:column wrap;
     text-align: center;
     margin: 5px;
 }
@@ -56,4 +61,16 @@
     padding: 1em;
     border: 1px solid #F0F0F0;
     max-width: 25em;
+}
+
+.subject p{
+    margin: 0;
+}
+
+.subject a {
+    display: block;
+}
+
+.subject a:last-of-type {
+    margin-top: 10px;
 }

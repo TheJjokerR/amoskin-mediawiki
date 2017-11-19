@@ -69,13 +69,15 @@ class RadiusAMOTemplate extends BaseTemplate {
 					);
 				}
 				echo $this->getIndicators();
+				
+				$title = $this->get('skin')->getContext()->getTitle();
 				echo Html::rawElement(
 					'h1',
 					array(
 						'class' => 'firstHeading',
 						'lang' => $this->get( 'pageLanguage' )
 					),
-					$this->get( 'title' )
+					$title->isSubPage() ? $title->getSubpageText() : $this->get( 'title' )
 				);
 
 				echo Html::rawElement(
