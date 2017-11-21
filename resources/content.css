@@ -19,6 +19,22 @@
     border-radius: 5px;
 }
 
+.teachers-note > div{
+    display: flex;
+}
+
+.teachers-note .icon-holder{
+    min-width: 100px;
+}
+
+.teachers-note .mw-collapsible-toggle{
+    margin-top: -12px;
+}
+
+.teachers-note .mw-collapsible-text:before{
+    content: 'Docent informatie ';
+}
+
 .lesson-info{
     padding: 15px;
     border: 1px solid #303030;
