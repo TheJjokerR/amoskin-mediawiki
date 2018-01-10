@@ -12,11 +12,33 @@
     text-align: center;
 }
 
+.assignment-note{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.assignment-note > div{
+    border: 1px solid #303030;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.assignment-note > div.mw-collapsible{
+    background-color: #F0F0F0;
+    border-top: none;
+}
+
+.assignment-note > div > span{
+    font-weight: bold; 
+    display: block;
+}
+
 .teachers-note{
     border: 1px solid #303030;
     display: block;
     padding: 1em;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .teachers-note > div{
